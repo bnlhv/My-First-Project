@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <meta name="description" content="My First Html">
+    <meta name="author" content="Ben Lahav">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <body style="background-image: url('WhatsApp\ Image\ 2020-07-08\ at\ 13.48.31.jpeg');"></body> -->
+</head>
+<body style="background-image: url('WhatsApp\ Image\ 2020-07-08\ at\ 13.48.31.jpeg');">
+    <!-- style="background-repeat: no-repeat; -->
+    <!-- Use Get Not POST-->
+    <!-- to write comment use Ctrl+/ -->
+    <p><a href="index.html">Go Back</a></p>
+    <form method="GET">
+
+        <label for="firstname">First Name:</label>    
+        <input id="firstname" type="text" name="firstname"><br><br>
+        
+        <label for="lastname">Last Name:</label>    
+        <input id="lastname" type="text" name="lastname"><br><br>
+        
+        <label for="date_of_birth">Date Of Birth:</label>    
+        <input id="date_of_birth" type="date" name="birthday"><br><br>
+        
+        <label for="email">E-mail:</label>    
+        <input id="email" type="email" name="email"><br><br>
+        
+        <label for="password">Password:</label>    
+        <input id="password" type="password" name="password" min="5"><br><br>
+        
+        <label for="gender">Gender
+            <label for="male"></label>        
+                <input  id="male" type="radio" name="gender" value="Male">Male
+            <label for="female"></label>        
+                <input  id="female" type="radio" name="gender" value="Female">Female<br><br>
+        </label>
+            
+        Pet:    <input  type="checkbox" name="dog">Dog
+                <input  type="checkbox" name="cat">Cat<br><br>
+        Vehicle: 
+        <select name="Vehicle">
+            <option value = "---">---</option>
+            <option value = "Car" name="car">Car</option>
+            <option value = "Truck" name="truck">Truck</option>
+            <option value = "Bus" name="bus">Bus</option>
+            <option value = "Motorcycle" name="motorcycle">Motorcycle</option>
+        </select>
+        <br><br>
+        <textarea>Type Some Content</textarea>
+        <br><br>
+        <input type="submit" value="Register">
+        <input type="Reset" value="Reset">
+    </form>
+</body>
+</html>
